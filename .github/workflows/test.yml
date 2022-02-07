@@ -49,10 +49,3 @@ jobs:
       run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          
-    - uses: geekyeggo/delete-artifact@v1
-      with:
-        name: |
-            my-artifact1
-            my-artifact2
-            my-artifact3
