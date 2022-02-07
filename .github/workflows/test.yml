@@ -52,4 +52,7 @@ jobs:
           
     - uses: geekyeggo/delete-artifact@v1
       with:
-        name: my-artifact2     
+        name: |
+            my-artifact1
+            my-artifact2
+            my-artifact3
